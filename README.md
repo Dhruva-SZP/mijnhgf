@@ -200,10 +200,10 @@ In Great Britain, day-ahead wholesale electricity trading occurs primarily on th
 ### Selection Logic
 For each settlement interval $T$ on delivery day $D$:
 1. **Decision Cutoff Timestamp:**
-   $$\text{Cutoff} = \text{Timestamp}(D - 1\text{ day}) + \text{cutoff\_hour}$$
-   *(Default: $(D - 1) \text{ at 11:00:00 UTC}$)*
-2. **Eligible Forecasts:** All forecast points with target delivery equal to $T_{\text{hour}}$ and `publishTime` $\le \text{Cutoff}$.
-3. **Selected Forecast:** The candidate forecast with the **latest** publication timestamp ($\max(\text{publishTime})$).
+   $$\text{Cutoff} = \text{Timestamp}(D - 1\text{ day}) + \text{CutoffHour}$$
+   *(Default: Day $D - 1$ at 11:00:00 UTC)*
+2. **Eligible Forecasts:** All forecast points with target delivery equal to $T_{\text{hour}}$ and `publishTime <= Cutoff`.
+3. **Selected Forecast:** The candidate forecast with the latest publication timestamp: $\max(\text{publishTime})$.
 4. **Leakage Prevention:** Any forecast published after the cutoff is strictly excluded. In January 2026, this rule successfully prevented **thousands of future forecast updates** from contaminating the analysis.
 
 ---
