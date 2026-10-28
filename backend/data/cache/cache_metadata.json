@@ -1,0 +1,9 @@
+{
+  "last_updated": "2026-10-28T16:31:28Z",
+  "source": "Elexon Insights BMRS API v1",
+  "fuel_hh_endpoint": "https://data.elexon.co.uk/bmrs/api/v1/datasets/FUELHH/stream?publishDateTimeFrom=2026-01-01T00:00:00Z&publishDateTimeTo=2026-02-01T01:00:00Z",
+  "wind_for_endpoint": "https://data.elexon.co.uk/bmrs/api/v1/datasets/WINDFOR/stream?publishDateTimeFrom=2025-12-30T00:00:00Z&publishDateTimeTo=2026-01-31T23:59:59Z",
+  "actual_wind_records": 1491,
+  "forecast_records": 19272,
+  "period": "January 2026"
+}
