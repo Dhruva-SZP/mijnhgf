@@ -74,17 +74,13 @@ Options: Render, Railway, Heroku, or Fly.io (all support Python/Docker):
 
 ## 4. GitHub Repository Preparation
 
-- [ ] **Create Anonymous Public GitHub Repo:**
-  - As instructed in the challenge, use an anonymous repo name (e.g. a random string like `kjhwr` or `gbrk-procure-7x`).
-  - Set repository visibility to **Public**.
-- [ ] **Initialize and Push Code:**
+- [x] **Created Anonymous Public GitHub Repo:**
+  - Repository URL: `https://github.com/Dhruva-SZP/mijnhgf.git` (Anonymous repo name: `mijnhgf`)
+  - Visibility: **Public**
+- [ ] **Push Local Code to Remote:**
   ```powershell
   cd C:\Users\ndhru\Downloads\gridbricks-challenge
-  git init
-  git add .
-  git commit -m "feat: complete Gridbricks Day-Ahead wind energy procurement platform"
-  git branch -M main
-  git remote add origin https://github.com/<your-username>/<anonymous-repo-name>.git
+  git remote add origin https://github.com/Dhruva-SZP/mijnhgf.git
   git push -u origin main
   ```
 - [ ] Check repository in browser (incognito) to ensure no secrets or local paths are exposed.

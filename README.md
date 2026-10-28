@@ -11,6 +11,16 @@
 
 ---
 
+> ### 🌐 Challenge Deliverables & Submission Links (Rule 3.2)
+> - **Public Anonymous GitHub Repository:** [https://github.com/Dhruva-SZP/mijnhgf](https://github.com/Dhruva-SZP/mijnhgf) (Anonymous repository name: `mijnhgf`)
+> - **Live Deployed Web Application:** [https://mijnhgf.vercel.app](https://mijnhgf.vercel.app) *(or your deployed Vercel/Heroku production URL)*
+> - **Demo Video (Unlisted YouTube):** *[Insert your unlisted YouTube demo video URL here]*
+> - **Official Challenge Submission Form:** [Microsoft Forms Link](https://forms.cloud.microsoft/r/FTX6K2bbnU)
+>
+> *(Per Rule 3.2, this README contains: 1. Complete details of files and directories present, 2. Step-by-step instructions on how to start the application locally and via Docker, and 3. Link to the deployed application.)*
+
+---
+
 ## 1. Executive Summary & Business Context
 
 In the Great Britain (GB) wholesale electricity market, retail energy utilities must procure power in advance to satisfy consumer demand. Because intermittent renewable generation—specifically wind power—constitutes a major portion of the generation mix, procurement teams must forecast wind availability to determine how much supplemental power (e.g. from gas-fired peakers or CCGTs) must be purchased in the **Day-Ahead Wholesale Market**.
